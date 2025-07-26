@@ -8,7 +8,7 @@ const Projects = () => {
       name: "Unity Performance Toolkit",
       description: "Open-source Unity package for performance profiling and optimization. Includes custom inspectors, runtime analyzers, and automated optimization suggestions.",
       technologies: ["C#", "Unity", "Editor Tools", "Profiling"],
-      githubUrl: "https://github.com/username/unity-performance-toolkit",
+      githubUrl: "https://github.com/romuloScripts/unity-performance-toolkit",
       liveUrl: "https://unity-perf-toolkit.com",
       stars: 1205,
       forks: 234,
@@ -19,7 +19,7 @@ const Projects = () => {
       name: "Game Engine Architecture",
       description: "Custom game engine built from scratch using modern C++. Features include ECS architecture, vulkan renderer, physics simulation, and cross-platform support.",
       technologies: ["C++", "Vulkan", "OpenGL", "CMake"],
-      githubUrl: "https://github.com/username/custom-game-engine",
+      githubUrl: "https://github.com/romuloScripts/custom-game-engine",
       stars: 892,
       forks: 156,
       language: "C++",
@@ -29,7 +29,7 @@ const Projects = () => {
       name: "Procedural World Generator",
       description: "Advanced procedural generation system for creating infinite open worlds. Includes terrain generation, biome systems, and structure placement algorithms.",
       technologies: ["C#", "Unity", "Compute Shaders", "Noise Generation"],
-      githubUrl: "https://github.com/username/procedural-world-gen",
+      githubUrl: "https://github.com/romuloScripts/procedural-world-gen",
       liveUrl: "https://procgen-demo.com",
       stars: 654,
       forks: 98,
@@ -39,7 +39,7 @@ const Projects = () => {
       name: "Game AI Framework",
       description: "Flexible AI framework for game development featuring behavior trees, state machines, utility AI, and pathfinding systems with visual debugging tools.",
       technologies: ["C#", "Unity", "AI", "Editor Tools"],
-      githubUrl: "https://github.com/username/game-ai-framework",
+      githubUrl: "https://github.com/romuloScripts/game-ai-framework",
       stars: 445,
       forks: 87,
       language: "C#"
@@ -48,7 +48,7 @@ const Projects = () => {
       name: "Shader Collection",
       description: "Collection of optimized shaders for various visual effects including water simulation, particle systems, post-processing effects, and stylized rendering.",
       technologies: ["HLSL", "GLSL", "Shader Graph", "Unity"],
-      githubUrl: "https://github.com/username/shader-collection",
+      githubUrl: "https://github.com/romuloScripts/shader-collection",
       liveUrl: "https://shader-demos.com",
       stars: 334,
       forks: 76,
@@ -58,7 +58,7 @@ const Projects = () => {
       name: "Multiplayer Networking Library",
       description: "Lightweight networking library for real-time multiplayer games with prediction, rollback, and lag compensation features.",
       technologies: ["C#", "Networking", "Unity", "Performance"],
-      githubUrl: "https://github.com/username/multiplayer-lib",
+      githubUrl: "https://github.com/romuloScripts/multiplayer-lib",
       stars: 278,
       forks: 45,
       language: "C#"
@@ -178,7 +178,7 @@ const Projects = () => {
           {/* View More */}
           <div className="text-center mt-12">
             <Button variant="gaming-outline" size="lg" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/romuloScripts" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5 mr-2" />
                 View All Projects on GitHub
               </a>

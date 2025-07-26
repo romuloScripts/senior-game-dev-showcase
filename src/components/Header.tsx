@@ -60,7 +60,7 @@ const Header = () => {
           {/* GitHub Link */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/romuloScripts" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
@@ -68,7 +68,7 @@ const Header = () => {
               <Github className="h-5 w-5" />
             </a>
             <Button variant="gaming-outline" size="sm">
-              Hire Me
+              Available for Freelance
             </Button>
           </div>
 
@@ -117,7 +117,7 @@ const Header = () => {
               </button>
               <div className="flex items-center space-x-4 pt-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/romuloScripts" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
@@ -125,7 +125,7 @@ const Header = () => {
                   <Github className="h-5 w-5" />
                 </a>
                 <Button variant="gaming-outline" size="sm">
-                  Hire Me
+                  Available for Freelance
                 </Button>
               </div>
             </nav>

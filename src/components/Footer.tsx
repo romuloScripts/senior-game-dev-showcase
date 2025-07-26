@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/romuloScripts" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
                   <Github className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/romulogamedev/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
@@ -33,7 +33,7 @@ const Footer = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="mailto:your.email@example.com"
+                  href="mailto:romulossan@gmail.com"
                   className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
                 >
                   <Mail className="h-5 w-5" />
@@ -84,9 +84,9 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold text-gaming-text mb-4">Contact</h4>
               <div className="space-y-2 text-gaming-text-muted">
-                <p>San Francisco, CA</p>
-                <p>your.email@example.com</p>
-                <p>+1 (555) 123-4567</p>
+                <p>Curitiba, Brasil</p>
+                <p>romulossan@gmail.com</p>
+                <p>+55 (31) 9 9116-7675</p>
               </div>
             </div>
           </div>

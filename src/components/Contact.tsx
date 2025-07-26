@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-gaming-text font-semibold">Email</h4>
-                    <p className="text-gaming-text-muted">your.email@example.com</p>
+                    <p className="text-gaming-text-muted">romulossan@gmail.com</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-gaming-text font-semibold">Phone</h4>
-                    <p className="text-gaming-text-muted">+1 (555) 123-4567</p>
+                    <p className="text-gaming-text-muted">+55 (31) 9 9116-7675</p>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-gaming-text font-semibold">Location</h4>
-                    <p className="text-gaming-text-muted">San Francisco, CA</p>
+                    <p className="text-gaming-text-muted">Curitiba, Brasil</p>
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                 <h4 className="text-gaming-text font-semibold mb-4">Connect on Social</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/romulogamedev/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-gaming-bg-tertiary rounded-lg flex items-center justify-center hover:bg-gaming-primary hover:text-gaming-bg-primary transition-colors"
@@ -76,7 +76,7 @@ const Contact = () => {
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/romuloScripts" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-gaming-bg-tertiary rounded-lg flex items-center justify-center hover:bg-gaming-primary hover:text-gaming-bg-primary transition-colors"
@@ -84,7 +84,7 @@ const Contact = () => {
                     <Github className="h-5 w-5" />
                   </a>
                   <a 
-                    href="mailto:your.email@example.com"
+                    href="mailto:romulossan@gmail.com"
                     className="w-12 h-12 bg-gaming-bg-tertiary rounded-lg flex items-center justify-center hover:bg-gaming-primary hover:text-gaming-bg-primary transition-colors"
                   >
                     <Mail className="h-5 w-5" />
@@ -100,7 +100,7 @@ const Contact = () => {
                   <span className="text-gaming-text">Available for new opportunities</span>
                 </div>
                 <p className="text-gaming-text-muted text-sm">
-                  Open to full-time positions, consulting projects, and interesting collaborations.
+                  Open to freelancer opportunities, consulting projects, and interesting collaborations.
                 </p>
               </Card>
             </div>

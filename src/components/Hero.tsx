@@ -48,16 +48,19 @@ const Hero = () => {
             <Button 
               variant="gaming-outline" 
               size="xl"
+              asChild
             >
-              <Download className="h-5 w-5 mr-2" />
-              Download Resume
+              <a href="https://romulosan.com/RomuloSantosSilvaResume.pdf" target="_blank" rel="noopener noreferrer">
+                <Download className="h-5 w-5 mr-2" />
+                Download Resume
+              </a>
             </Button>
           </div>
 
           {/* Social Links */}
           <div className="flex items-center justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/romuloScripts" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gaming-text-muted hover:text-gaming-primary transition-colors p-3 rounded-full hover:bg-gaming-bg-secondary"
@@ -65,7 +68,7 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/romulogamedev/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gaming-text-muted hover:text-gaming-primary transition-colors p-3 rounded-full hover:bg-gaming-bg-secondary"
