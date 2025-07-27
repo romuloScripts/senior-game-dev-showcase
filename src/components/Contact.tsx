@@ -78,7 +78,7 @@ const Contact = () => {
                 <h4 className="text-gaming-text font-semibold mb-3">Current Availability</h4>
                 <div className="flex items-center space-x-2 mb-2">
                   <div className="w-3 h-3 bg-gaming-accent rounded-full"></div>
-                  <span className="text-gaming-text">Available for new opportunities</span>
+                  <span className="text-gaming-text">Available for Freelance</span>
                 </div>
                 <p className="text-gaming-text-muted text-sm">
                   Open to freelancer opportunities, consulting projects, and interesting collaborations.
