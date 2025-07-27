@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Brand */}
             <div>
-              <h3 className="text-xl font-bold text-gaming-text mb-4">Senior Game Developer</h3>
+              <h3 className="text-xl font-bold text-gaming-text mb-4">Rômulo Santos Silva</h3>
               <p className="text-gaming-text-muted mb-4">
                 Crafting immersive gaming experiences with passion and precision. 
                 Let's build the next generation of interactive entertainment together.

@@ -23,6 +23,11 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
+          {/* Name introduction */}
+          <h2 className="text-2xl md:text-3xl text-gaming-text mb-4">
+            Rômulo Santos Silva
+          </h2>
+          
           {/* Main heading with gradient text */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-gaming-text">Senior </span>

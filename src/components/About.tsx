@@ -32,7 +32,7 @@ const About = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gaming-text mb-6">
-              About <span className="text-gaming-primary">Me</span>
+              About <span className="text-gaming-primary">Rômulo</span>
             </h2>
             <p className="text-xl text-gaming-text-muted max-w-3xl mx-auto">
               With over 8 years of experience in game development, I've worked on everything from 

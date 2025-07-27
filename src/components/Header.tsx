@@ -20,7 +20,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Code className="h-8 w-8 text-gaming-primary" />
-            <span className="text-xl font-bold text-gaming-text">GameDev Portfolio</span>
+            <span className="text-xl font-bold text-gaming-text">Rômulo GameDev</span>
           </div>
 
           {/* Desktop Navigation */}
