@@ -7,7 +7,7 @@ import yukiImage from '@/assets/yuki.png';
 import thelineImage from '@/assets/theline.jpg';
 import sansarImage from '@/assets/sansar.jpg';
 import residiuumImage from '@/assets/residiuum.jpg';
-import boogieImage from '@/assets/boogie.png';
+import boogieImage from '@/assets/boogie.jpg';
 
 const Games = () => {
   const games = [
