@@ -176,13 +176,6 @@ const Games = () => {
               </Card>
             ))}
           </div>
-
-          {/* View More */}
-          <div className="text-center mt-12">
-            <Button variant="gaming-outline" size="lg">
-              View All Games
-            </Button>
-          </div>
         </div>
       </div>
     </section>
