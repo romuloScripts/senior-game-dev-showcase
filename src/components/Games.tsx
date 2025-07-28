@@ -13,7 +13,7 @@ const Games = () => {
       year: "2023-2025",
       description: "Clawball is a multiplayer Cat vs. Cat VR Soccer Game featuring fast-paced action, physics-based gameplay, and a vibrant art style.",
       technologies: ["Unreal", "C++", "Networking", "Physics", "Blueprint", "UI" , "VR"],
-      stats: { company: "ARVORE Immersive", platform: "Meta Quest 3" },
+      stats: { company: "ARVORE Immersive", platform: "Meta Quest" },
       image: clawballImage,
       playLink: "https://clawball.com/",
       featured: true
@@ -22,9 +22,9 @@ const Games = () => {
       title: "Pixel Ripped 1978",
       role: "Lead Gameplay Programmer",
       year: "2021-2023",
-      description: "Pixel Ripped 1978 is a VR game where you play as a programmer working at Atari in 1978, tasked with preventing a villain from rewriting gaming history. It's a game-within-a-game experience that blends 2D retro gameplay with a 3D VR world, featuring a nostalgic look and feel of the Atari 2600 era. with custom rendering pipeline and procedural world generation.",
+      description: "Pixel Ripped 1978 is a VR game where you play as a programmer at Atari in 1978, blending 2D retro gameplay with a 3D VR world.",
       technologies: ["Unity", "C#", "Custom Tools", "Analytics", "HLSL", "VR"],
-      stats: { company: "ARVORE Immersive", platform: "Steam PC, PS5, Meta Quest 2" },
+      stats: { company: "ARVORE Immersive", platform: "PC, PS5, Meta Quest" },
       image: pixel78Image,
       playLink: "https://atari.com/products/pixel-ripped-1978?srsltid=AfmBOor0ciKK9Wr7FNesLyRSHNW1WehfJQKXLd_IgSecgegn810y541F"
     },
@@ -34,7 +34,7 @@ const Games = () => {
       year: "2020-2021",
       description: "Yuki is a VR Bullet Hell Roguelike mashup where you embody a space ranger and venture through a fantastic cosmos, dodging obstacles and bullets and fighting hordes of space monsters.",
       technologies: ["Unity", "C#", "Performance Optimization", "Graphics Programming", "VR","Procedural Generation"],
-      stats: { company: "ARVORE Immersive", platform: "Steam PC, PS4, Meta Quest 2" },
+      stats: { company: "ARVORE Immersive", platform: "PC, PS4, Meta Quest" },
       image: yukiImage,
       playLink: "https://arvore.io/games/yuki-space-ranger"
     },
