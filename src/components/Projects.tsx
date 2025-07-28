@@ -71,14 +71,10 @@ const Projects = () => {
           </div>
 
           {/* GitHub Stats */}
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 gap-6 mb-16">
             <Card className="p-6 text-center bg-gradient-card border-gaming-bg-tertiary">
               <div className="text-3xl font-bold text-gaming-primary mb-2">20+</div>
               <p className="text-gaming-text-muted">Public Repositories</p>
-            </Card>
-            <Card className="p-6 text-center bg-gradient-card border-gaming-bg-tertiary">
-              <div className="text-3xl font-bold text-gaming-primary mb-2">3.2K+</div>
-              <p className="text-gaming-text-muted">GitHub Stars</p>
             </Card>
             <Card className="p-6 text-center bg-gradient-card border-gaming-bg-tertiary">
               <div className="text-3xl font-bold text-gaming-primary mb-2">5000+</div>
