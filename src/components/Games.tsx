@@ -8,9 +8,9 @@ const Games = () => {
       title: "Clawball",
       role: "Associate Principal Gameplay Programmer",
       year: "2023-2025",
-      description: "Clawball is a multiplayer Cat vs. Cat VR Soccer Game featuring ",
+      description: "Clawball is a multiplayer Cat vs. Cat VR Soccer Game featuring fast-paced action, physics-based gameplay, and a vibrant art style.",
       technologies: ["Unreal", "C++", "Networking", "Physics", "Gameplay", "UI" , "VR"],
-      stats: { company: "ARVORE Immersive Experiences", rating: "4.6", players: "200K+", platform: "Meta Quest 3" },
+      stats: { company: "ARVORE Immersive Experiences", platform: "Meta Quest 3" },
       image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=400&fit=crop",
       playLink: "https://clawball.com/",
       featured: true
@@ -128,10 +128,7 @@ const Games = () => {
                     {/* Stats */}
                     <div className="grid grid-cols-3 gap-4">
                       <div className="text-center">
-                        <div className="flex items-center justify-center mb-1">
-                          <Star className="h-4 w-4 text-gaming-accent mr-1" />
-                          <span className="text-gaming-text font-semibold">{game.stats.company}</span>
-                        </div>
+                        <span className="text-gaming-text font-semibold block mb-1">{game.stats.company}</span>
                         <p className="text-gaming-text-muted text-sm">Company</p>
                       </div>
                       <div className="text-center">
