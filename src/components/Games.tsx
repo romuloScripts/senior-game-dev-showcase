@@ -5,6 +5,7 @@ import clawballImage from '@/assets/clawball.png';
 import pixel78Image from '@/assets/pixel78.jpg';
 import yukiImage from '@/assets/yuki.png';
 import thelineImage from '@/assets/theline.jpg';
+import sansarImage from '@/assets/sansar.jpg';
 
 const Games = () => {
   const games = [
@@ -50,24 +51,14 @@ const Games = () => {
       playLink: "https://arvore.io/games/the-line"
     },
     {
-      title: "Neon Strike",
-      role: "Gameplay & Graphics Programmer",
-      year: "2021",
-      description: "Fast-paced arcade shooter with dynamic lighting and particle systems.",
-      technologies: ["Unity", "C#", "Shader Graph", "Post-Processing"],
-      stats: { rating: "4.4", players: "800K+", platform: "Mobile, PC" },
-      image: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=600&h=400&fit=crop",
-      playLink: "#"
-    },
-    {
-      title: "Puzzle Dimensions",
-      role: "Technical Lead",
-      year: "2020",
-      description: "Award-winning puzzle game with innovative mechanics and beautiful minimalist design.",
-      technologies: ["Unity", "C#", "Custom Tools", "Analytics"],
-      stats: { rating: "4.9", players: "500K+", platform: "Mobile" },
-      image: "https://images.unsplash.com/photo-1486401899868-0e435eec1093?w=600&h=400&fit=crop",
-      playLink: "#"
+      title: "Sansar",
+      role: "Senior Gameplay Programmer",
+      year: "2018",
+      description: "Sansar is the ultimate playground for creative mind and virtual explorers. Create your avatar, design worlds and join events organized by the community.",
+      technologies: ["Custom Engine", "C++", "Networking"],
+      stats: { company: "Sansar", platform: "PC" },
+      image: sansarImage,
+      playLink: "https://www.sansar.com/"
     }
   ];
 
