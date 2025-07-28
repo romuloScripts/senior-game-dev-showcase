@@ -21,7 +21,7 @@ const Projects = () => {
     description: "A complete card game example built with Unreal Engine, showcasing turn-based mechanics, card interactions, and multiplayer support.",
     technologies: ["C++", "Unreal", "Multiplayer", "Card Game"],
     githubUrl: "https://github.com/romuloScripts/ole-cardgame-unreal",
-    language: "C#"
+    language: "C++"
   }, {
     name: "Math Library",
     description: "A comprehensive math library for game development, providing advanced mathematical functions, vector and matrix operations, and geometry calculations.",
@@ -33,7 +33,7 @@ const Projects = () => {
     description: "Collection of examples demonstrating procedural content generation techniques in Unreal Engine, including procedural meshes, buildings, vegetation, and noise functions.",
     technologies: ["C++", "Unreal", "PCG", "Noise Generation"],
     githubUrl: "https://github.com/romuloScripts/PCGProject",
-    language: "C#"
+    language: "C++"
   }, {
     name: "Game AI Framework",
     description: "AI algorithms for game development featuring Flocking, Vector Field, Min Max, Auction, AStar, Dijkstra, Breadth first and Depth first searchs.",
@@ -45,7 +45,6 @@ const Projects = () => {
     description: "Collection of optimized shaders for various visual effects including water simulation, particle systems, post-processing effects, and stylized rendering.",
     technologies: ["GLSL", "HLSL", "ShaderLab", "Shader Graph", "Unity", "C#"],
     githubUrl: "https://github.com/romuloScripts/Shader-Collection",
-
     language: "GLSL"
   }, {
     name: "Gameplay Utils Library ",
@@ -95,14 +94,6 @@ const Projects = () => {
                         </span>}
                     </div>
                     <div className="flex items-center gap-4 text-sm text-gaming-text-muted mb-3">
-                      <div className="flex items-center gap-1">
-                        <Star className="h-4 w-4" />
-                        {project.stars}
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <GitBranch className="h-4 w-4" />
-                        {project.forks}
-                      </div>
                       <div className="flex items-center gap-1">
                         <div className="w-3 h-3 bg-gaming-primary rounded-full"></div>
                         {project.language}
