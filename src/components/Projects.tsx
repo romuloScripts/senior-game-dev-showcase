@@ -3,57 +3,55 @@ import { Button } from '@/components/ui/button';
 import { Github, ExternalLink, Star, GitBranch } from 'lucide-react';
 const Projects = () => {
   const projects = [{
-    name: "Unity Performance Toolkit",
-    description: "Open-source Unity package for performance profiling and optimization. Includes custom inspectors, runtime analyzers, and automated optimization suggestions.",
-    technologies: ["C#", "Unity", "Editor Tools", "Profiling"],
-    githubUrl: "https://github.com/romuloScripts/unity-performance-toolkit",
-    liveUrl: "https://unity-perf-toolkit.com",
-    stars: 1205,
-    forks: 234,
+    name: "Tween Tools",
+    description: "Powerful tweening library for Unity with support for custom easing functions, chaining, and callbacks. Ideal for creating smooth animations and transitions.",
+    technologies: ["C#", "Unity", "Editor Tools"],
+    githubUrl: "https://github.com/romuloScripts/AnimatedValueSystem",
     language: "C#",
     featured: true
   }, {
-    name: "Game Engine Architecture",
-    description: "Custom game engine built from scratch using modern C++. Features include ECS architecture, vulkan renderer, physics simulation, and cross-platform support.",
-    technologies: ["C++", "Vulkan", "OpenGL", "CMake"],
-    githubUrl: "https://github.com/romuloScripts/custom-game-engine",
-    stars: 892,
-    forks: 156,
+    name: "Game Engine 2D",
+    description: "Custom game engine built from scratch using modern C++. Features include a component-based architecture, rendering engine, physics system, and asset management.",
+    technologies: ["C++", "SDL", "Lua", "CMake"],
+    githubUrl: "https://github.com/romuloScripts/GameEngine2D",
     language: "C++",
     featured: true
   }, {
-    name: "Procedural World Generator",
-    description: "Advanced procedural generation system for creating infinite open worlds. Includes terrain generation, biome systems, and structure placement algorithms.",
-    technologies: ["C#", "Unity", "Compute Shaders", "Noise Generation"],
-    githubUrl: "https://github.com/romuloScripts/procedural-world-gen",
-    liveUrl: "https://procgen-demo.com",
-    stars: 654,
-    forks: 98,
+    name: "Card Game Example",
+    description: "A complete card game example built with Unreal Engine, showcasing turn-based mechanics, card interactions, and multiplayer support.",
+    technologies: ["C++", "Unreal", "Multiplayer", "Card Game"],
+    githubUrl: "https://github.com/romuloScripts/ole-cardgame-unreal",
+    language: "C#"
+  }, {
+    name: "Math Library",
+    description: "A comprehensive math library for game development, providing advanced mathematical functions, vector and matrix operations, and geometry calculations.",
+    technologies: ["C#", "Unity", "HLSL", "Math"],
+    githubUrl: "https://github.com/romuloScripts/MathExamples",
+    language: "C#"
+  }, {
+    name: "Procedural Content Generation Examples",
+    description: "Collection of examples demonstrating procedural content generation techniques in Unreal Engine, including procedural meshes, buildings, vegetation, and noise functions.",
+    technologies: ["C++", "Unreal", "PCG", "Noise Generation"],
+    githubUrl: "https://github.com/romuloScripts/PCGProject",
     language: "C#"
   }, {
     name: "Game AI Framework",
-    description: "Flexible AI framework for game development featuring behavior trees, state machines, utility AI, and pathfinding systems with visual debugging tools.",
+    description: "AI algorithms for game development featuring Flocking, Vector Field, Min Max, Auction, AStar, Dijkstra, Breadth first and Depth first searchs.",
     technologies: ["C#", "Unity", "AI", "Editor Tools"],
     githubUrl: "https://github.com/romuloScripts/game-ai-framework",
-    stars: 445,
-    forks: 87,
     language: "C#"
   }, {
     name: "Shader Collection",
     description: "Collection of optimized shaders for various visual effects including water simulation, particle systems, post-processing effects, and stylized rendering.",
-    technologies: ["HLSL", "GLSL", "Shader Graph", "Unity"],
-    githubUrl: "https://github.com/romuloScripts/shader-collection",
-    liveUrl: "https://shader-demos.com",
-    stars: 334,
-    forks: 76,
-    language: "HLSL"
+    technologies: ["GLSL", "HLSL", "ShaderLab", "Shader Graph", "Unity", "C#"],
+    githubUrl: "https://github.com/romuloScripts/Shader-Collection",
+
+    language: "GLSL"
   }, {
-    name: "Multiplayer Networking Library",
-    description: "Lightweight networking library for real-time multiplayer games with prediction, rollback, and lag compensation features.",
-    technologies: ["C#", "Networking", "Unity", "Performance"],
-    githubUrl: "https://github.com/romuloScripts/multiplayer-lib",
-    stars: 278,
-    forks: 45,
+    name: "Gameplay Utils Library ",
+    description: "A collection of modular Unity scripts to streamline gameplay development, including actions, conditions, attributes, movement, states, cheats, checkpoints, pooling, and more.",
+    technologies: ["C#", "Unity", "Performance", "Editor Tools", "Design Patterns"],
+    githubUrl: "https://github.com/romuloScripts/GameplayUtils",
     language: "C#"
   }];
   return <section id="projects" className="py-20 bg-gaming-bg-primary">
