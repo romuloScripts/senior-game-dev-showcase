@@ -124,12 +124,6 @@ const Projects = () => {
                       GitHub
                     </a>
                   </Button>
-                  {project.liveUrl && <Button variant="gaming" size="sm" asChild>
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Live Demo
-                      </a>
-                    </Button>}
                 </div>
               </Card>)}
           </div>

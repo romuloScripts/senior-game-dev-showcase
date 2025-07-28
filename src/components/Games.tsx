@@ -1,6 +1,7 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Play, Star, Users } from 'lucide-react';
+import clawballImage from '../assets/clawball.png';
 
 const Games = () => {
   const games = [
@@ -11,7 +12,7 @@ const Games = () => {
       description: "Clawball is a multiplayer Cat vs. Cat VR Soccer Game featuring fast-paced action, physics-based gameplay, and a vibrant art style.",
       technologies: ["Unreal", "C++", "Networking", "Physics", "Blueprint", "UI" , "VR"],
       stats: { company: "ARVORE Immersive Experiences", platform: "Meta Quest 3" },
-      image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=400&fit=crop",
+      image: clawballImage,
       playLink: "https://clawball.com/",
       featured: true
     },
@@ -97,7 +98,12 @@ const Games = () => {
                           {game.role} • {game.year}
                         </p>
                       </div>
-                      <ExternalLink className="h-5 w-5 text-gaming-text-muted hover:text-gaming-primary cursor-pointer transition-colors" />
+                      {game.playLink && game.playLink !== "#" && (
+                        <ExternalLink 
+                          className="h-5 w-5 text-gaming-text-muted hover:text-gaming-primary cursor-pointer transition-colors" 
+                          onClick={() => window.open(game.playLink, '_blank', 'noopener,noreferrer')}
+                        />
+                      )}
                     </div>
 
                     <p className="text-gaming-text-muted mb-6">
