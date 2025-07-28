@@ -4,6 +4,7 @@ import { ExternalLink, Play, Star, Users } from 'lucide-react';
 import clawballImage from '@/assets/clawball.png';
 import pixel78Image from '@/assets/pixel78.jpg';
 import yukiImage from '@/assets/yuki.png';
+import thelineImage from '@/assets/theline.jpg';
 
 const Games = () => {
   const games = [
@@ -33,10 +34,20 @@ const Games = () => {
       role: "Lead Gameplay Programmer",
       year: "2020-2021",
       description: "Yuki is a VR Bullet Hell Roguelike mashup where you embody a space ranger and venture through a fantastic cosmos, dodging obstacles and bullets and fighting hordes of space monsters.",
-      technologies: ["Unity", "C#", "Performance Optimization", "Graphics Programming", "VR","Procedural Generation"],
+      technologies: ["Unity", "C#", "Optimization", "Graphics", "VR","Procedural Generation"],
       stats: { company: "ARVORE Immersive", platform: "PC, PS4, Meta Quest" },
       image: yukiImage,
       playLink: "https://arvore.io/games/yuki-space-ranger"
+    },
+    {
+      title: "The Line",
+      role: "Gameplay Programmer",
+      year: "2019",
+      description: "The Line is an interactive VR narrative where users explore a magical world and follow the love story of Pedro and Rosa, two miniature dolls hesitant to break boundaries to be together.",
+      technologies: ["Unity", "C#", "VR"],
+      stats: { company: "ARVORE Immersive", platform: "PC, Meta Quest" },
+      image: thelineImage,
+      playLink: "https://arvore.io/games/the-line"
     },
     {
       title: "Neon Strike",
