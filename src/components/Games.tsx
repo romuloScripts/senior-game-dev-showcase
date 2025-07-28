@@ -6,6 +6,8 @@ import pixel78Image from '@/assets/pixel78.jpg';
 import yukiImage from '@/assets/yuki.png';
 import thelineImage from '@/assets/theline.jpg';
 import sansarImage from '@/assets/sansar.jpg';
+import residiuumImage from '@/assets/residiuum.jpg';
+import boogieImage from '@/assets/boogie.png';
 
 const Games = () => {
   const games = [
@@ -25,7 +27,7 @@ const Games = () => {
       role: "Lead Gameplay Programmer",
       year: "2021-2023",
       description: "Pixel Ripped 1978 is a VR game where you play as a programmer at Atari in 1978, blending 2D retro gameplay with a 3D VR world.",
-      technologies: ["Unity", "C#", "Custom Tools", "Analytics", "HLSL", "VR"],
+      technologies: ["Unity", "C#", "Custom Tools", "Analytics", "HLSL", "VR", "AI"],
       stats: { company: "ARVORE Immersive", platform: "PC, PS5, Meta Quest" },
       image: pixel78Image,
       playLink: "https://atari.com/products/pixel-ripped-1978?srsltid=AfmBOor0ciKK9Wr7FNesLyRSHNW1WehfJQKXLd_IgSecgegn810y541F"
@@ -51,11 +53,30 @@ const Games = () => {
       playLink: "https://arvore.io/games/the-line"
     },
     {
+      title: "Boogie Race",
+      role: "Senior Gameplay Programmer",
+      year: "2024",
+      description: "Boogie Race is an online multiplayer racing game based on a pre-existing Iron Studios IP.",
+      technologies: ["Custom Engine", "Rust", "Gameplay", "Networking", "UI"],
+      stats: { company: "Iron Studios", platform: "PC" },
+      image: boogieImage,
+    },
+    {
+      title: "Residiuum",
+      role: "Senior Gameplay Programmer",
+      year: "2023",
+      description: "Residiuum is a third-person action game in development by Iron Studios, featuring impressive graphics and immersive gameplay.",
+      technologies: ["Unreal", "C++", "Gameplay", "Animation", "AI"],
+      stats: { company: "Iron Studios", platform: "PC" },
+      image: residiuumImage,
+      playLink: "https://www.youtube.com/watch?v=ELy1kiE4PqY"
+    },
+    {
       title: "Sansar",
       role: "Senior Gameplay Programmer",
       year: "2018",
       description: "Sansar is the ultimate playground for creative mind and virtual explorers. Create your avatar, design worlds and join events organized by the community.",
-      technologies: ["Custom Engine", "C++", "Networking"],
+      technologies: ["Custom Engine", "C++", "Networking", "UI", "Noesis"],
       stats: { company: "Sansar", platform: "PC" },
       image: sansarImage,
       playLink: "https://www.sansar.com/"
