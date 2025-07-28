@@ -84,12 +84,6 @@ const Games = () => {
                         Featured
                       </div>
                     )}
-                    <div className="absolute bottom-4 right-4">
-                      <Button variant="gaming" size="sm">
-                        <Play className="h-4 w-4 mr-2" />
-                        Play Now
-                      </Button>
-                    </div>
                   </div>
 
                   {/* Game Info */}
