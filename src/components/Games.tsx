@@ -32,7 +32,7 @@ const Games = () => {
       title: "Yuki Space Ranger",
       role: "Lead Gameplay Programmer",
       year: "2020-2021",
-      description: "Yuki is a VR Bullet Hell Roguelike mashup where you embody a space ranger and venture through a fantastic cosmos, dodging obstacles and bullets and fighting hordes of space monsters, all while collecting power-ups and upgrades to enhance your abilities. The game features a unique blend of fast-paced action, strategic gameplay, and immersive VR experience.",
+      description: "Yuki is a VR Bullet Hell Roguelike mashup where you embody a space ranger and venture through a fantastic cosmos, dodging obstacles and bullets and fighting hordes of space monsters.",
       technologies: ["Unity", "C#", "Performance Optimization", "Graphics Programming", "VR","Procedural Generation"],
       stats: { company: "ARVORE Immersive", platform: "Steam PC, PS4, Meta Quest 2" },
       image: yukiImage,
