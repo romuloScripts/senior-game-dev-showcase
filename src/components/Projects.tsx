@@ -38,7 +38,7 @@ const Projects = () => {
     name: "Game AI Framework",
     description: "AI algorithms for game development featuring Flocking, Vector Field, Min Max, Auction, AStar, Dijkstra, Breadth first and Depth first searchs.",
     technologies: ["C#", "Unity", "AI", "Editor Tools"],
-    githubUrl: "https://github.com/romuloScripts/game-ai-framework",
+    githubUrl: "https://github.com/romuloScripts/Game-AI",
     language: "C#"
   }, {
     name: "Shader Collection",

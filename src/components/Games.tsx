@@ -5,14 +5,14 @@ import { ExternalLink, Play, Star, Users } from 'lucide-react';
 const Games = () => {
   const games = [
     {
-      title: "Cyber Racing 2077",
-      role: "Lead Gameplay Programmer",
-      year: "2023",
-      description: "A high-octane cyberpunk racing game featuring advanced AI, dynamic weather systems, and multiplayer racing.",
-      technologies: ["Unity", "C#", "Photon", "HLSL"],
-      stats: { rating: "4.8", players: "2M+", platform: "PC, Console" },
+      title: "Clawball",
+      role: "Associate Principal Gameplay Programmer",
+      year: "2023-2025",
+      description: "Clawball is a multiplayer Cat vs. Cat VR Soccer Game featuring ",
+      technologies: ["Unreal", "C++", "Networking", "Physics", "Gameplay", "UI" , "VR"],
+      stats: { company: "ARVORE Immersive Experiences", rating: "4.6", players: "200K+", platform: "Meta Quest 3" },
       image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=400&fit=crop",
-      playLink: "#",
+      playLink: "https://clawball.com/",
       featured: true
     },
     {
@@ -57,7 +57,7 @@ const Games = () => {
               Featured <span className="text-gaming-primary">Games</span>
             </h2>
             <p className="text-xl text-gaming-text-muted max-w-3xl mx-auto">
-              A showcase of the games I've worked on, from indie projects to AAA titles, 
+              A showcase of the games I've worked on, 
               demonstrating my expertise across different genres and platforms.
             </p>
           </div>
@@ -127,6 +127,13 @@ const Games = () => {
 
                     {/* Stats */}
                     <div className="grid grid-cols-3 gap-4">
+                      <div className="text-center">
+                        <div className="flex items-center justify-center mb-1">
+                          <Star className="h-4 w-4 text-gaming-accent mr-1" />
+                          <span className="text-gaming-text font-semibold">{game.stats.company}</span>
+                        </div>
+                        <p className="text-gaming-text-muted text-sm">Company</p>
+                      </div>
                       <div className="text-center">
                         <div className="flex items-center justify-center mb-1">
                           <Star className="h-4 w-4 text-gaming-accent mr-1" />
