@@ -6,17 +6,17 @@ const About = () => {
     {
       icon: <Code className="h-8 w-8" />,
       title: "Programming Languages",
-      items: ["C#", "C++", "JavaScript", "Python", "HLSL/GLSL"]
+      items: ["C#", "C++", "Rust", "Python", "HLSL/GLSL"]
     },
     {
       icon: <Zap className="h-8 w-8" />,
       title: "Game Engines",
-      items: ["Unity", "Unreal Engine", "Custom Engines", "Godot"]
+      items: ["Unity", "Unreal Engine", "Custom Engines"]
     },
     {
       icon: <Users className="h-8 w-8" />,
       title: "Specializations",
-      items: ["Gameplay Programming", "Engine Architecture", "Graphics Programming", "Performance Optimization"]
+      items: ["Gameplay Programming", "Multiplayer Programming", "Graphics Programming", "Performance Optimization"]
     },
     {
       icon: <Award className="h-8 w-8" />,
@@ -35,8 +35,8 @@ const About = () => {
               About <span className="text-gaming-primary">Rômulo</span>
             </h2>
             <p className="text-xl text-gaming-text-muted max-w-3xl mx-auto">
-              With over 8 years of experience in game development, I've worked on everything from 
-              indie mobile games to AAA console titles. My passion lies in creating engaging 
+              With over 13 years of experience in game development, I've worked on everything from 
+              mobile games to PC, console, and virtual reality titles. My passion lies in creating engaging 
               gameplay experiences and pushing the boundaries of what's possible in interactive entertainment.
             </p>
           </div>
@@ -54,8 +54,8 @@ const About = () => {
                   </p>
                   <p className="text-gaming-text-muted mb-4">
                     Over the years, I've evolved into a senior developer, leading teams and architecting 
-                    game systems that power millions of players' experiences. I specialize in performance 
-                    optimization, engine development, and creating scalable game architectures.
+                    game systems that power millions of players' experiences. I specialize in gameplay
+                    programming, multiplayer systems, graphics programming, and creating scalable game architectures.
                   </p>
                   <p className="text-gaming-text-muted">
                     When I'm not coding, you'll find me exploring new game technologies, contributing to 
@@ -65,11 +65,11 @@ const About = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-gaming-primary rounded-full"></div>
-                    <span className="text-gaming-text-muted">8+ Years Experience</span>
+                    <span className="text-gaming-text-muted">13+ Years Experience</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-gaming-primary rounded-full"></div>
-                    <span className="text-gaming-text-muted">15+ Shipped Games</span>
+                    <span className="text-gaming-text-muted">10+ Shipped Games</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-gaming-primary rounded-full"></div>
@@ -77,7 +77,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-gaming-primary rounded-full"></div>
-                    <span className="text-gaming-text-muted">Performance Optimization Expert</span>
+                    <span className="text-gaming-text-muted">Virtual Reality Expert</span>
                   </div>
                 </div>
               </div>
