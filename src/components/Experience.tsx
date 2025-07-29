@@ -84,10 +84,10 @@ const Experience = () => {
             {experiences.map((exp, index) => (
               <div key={index} className="relative mb-12 md:mb-16">
                 {/* Timeline dot */}
-                <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-gaming-primary rounded-full transform md:-translate-x-2 mt-6"></div>
+                <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-gaming-primary rounded-full transform md:-translate-x-2 mt-6 z-10"></div>
                 
                 {/* Content */}
-                <div className={`ml-12 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:ml-1/2 md:pl-12'}`}>
+                <div className={`ml-12 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:ml-1/2 md:pl-12'}`}>
                   <Card className="p-6 bg-gradient-card border-gaming-bg-tertiary hover:shadow-gaming transition-all duration-300">
                     {/* Header */}
                     <div className="mb-4">

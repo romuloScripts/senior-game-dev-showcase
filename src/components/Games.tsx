@@ -219,7 +219,7 @@ const Games = () => {
                     </div>
 
                     {/* Stats */}
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-2 gap-8 justify-center">
                       <div className="text-center">
                         <span className="text-gaming-text font-semibold block mb-1">{game.stats.company}</span>
                         <p className="text-gaming-text-muted text-sm">Company</p>
