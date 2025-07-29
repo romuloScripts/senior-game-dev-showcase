@@ -110,8 +110,8 @@ const Games = () => {
       role: "Gameplay Programmer",
       year: "2014-2017",
       description: "Wells is an action side-scrolling game into a steampunk universe with a lot of enemies, explosions and gigantic bosses.",
-      technologies: ["Unity", "C#", "Gameplay", "UI", "Custom Tools", "AI", "HLSL", "Graphics"],
-      stats: { company: "Magitech Games", platform: "Xbox One, PC, MAC, Linux" },
+      technologies: ["Unity", "C#", "Gameplay", "UI", "Custom Tools", "AI", "HLSL"],
+      stats: { company: "Magitech Games", platform: "Xbox, PC, MAC, Linux" },
       image: wellsImage,
       playLink: "https://towerupstudios.com/wells/"
     },
