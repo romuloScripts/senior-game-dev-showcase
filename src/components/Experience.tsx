@@ -129,32 +129,33 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-gaming-bg-secondary">
-      <div className="container mx-auto px-4 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gaming-text mb-6">
-              Professional <span className="text-gaming-primary">Experience</span>
-            </h2>
-            <p className="text-xl text-gaming-text-muted max-w-3xl mx-auto">
-              My journey through the gaming industry, from junior developer to technical leader, 
-              working on projects that have entertained millions of players worldwide.
-            </p>
-          </div>
+  <section id="experience" className="py-20 bg-gaming-bg-secondary">
+    <div className="container mx-auto px-4 lg:px-8">
+      <div className="max-w-4xl mx-auto">
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gaming-text mb-6">
+            Professional <span className="text-gaming-primary">Experience</span>
+          </h2>
+          <p className="text-xl text-gaming-text-muted max-w-3xl mx-auto">
+            My journey through the gaming industry, from junior developer to technical leader, 
+            working on projects that have entertained millions of players worldwide.
+          </p>
+        </div>
 
-          {/* Timeline */}
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gaming-primary transform md:-translate-x-0.5"></div>
+        {/* Timeline */}
+        <div className="relative">
+          {/* Timeline line */}
+          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gaming-primary transform md:-translate-x-0.5"></div>
 
-            {experiences.map((exp, index) => (
-              <div key={index} className="relative mb-12 md:mb-16">
-                {/* Timeline dot */}
-                <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-gaming-primary rounded-full transform md:-translate-x-2 mt-6 z-10"></div>
-                
-                {/* Content */}
-                <div className={`ml-12 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-8' : 'md:ml-1/2 md:pl-8'}`}>
+          {experiences.map((exp, index) => (
+            <div key={index} className="relative mb-12 md:mb-16 md:flex md:items-start">
+              {/* Timeline dot */}
+              <div className="absolute left-2 md:left-1/2 w-4 h-4 bg-gaming-primary rounded-full transform md:-translate-x-2 mt-6 z-10"></div>
+              
+              {/* Content container */}
+              <div className={`md:flex ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} w-full`}>
+                <div className="ml-12 md:ml-0 md:w-1/2 md:px-8">
                   <Card className="p-6 bg-gradient-card border-gaming-bg-tertiary hover:shadow-gaming transition-all duration-300">
                     {/* Header */}
                     <div className="mb-4">
@@ -212,12 +213,13 @@ const Experience = () => {
                   </Card>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 };
 
 export default Experience;
