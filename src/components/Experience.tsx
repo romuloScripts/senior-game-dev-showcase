@@ -4,60 +4,126 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      company: "Nexus Games Studio",
-      position: "Senior Game Developer & Technical Lead",
-      location: "San Francisco, CA",
-      period: "2021 - Present",
-      description: "Leading a team of 8 developers in creating AAA console games. Architected scalable game systems, optimized performance for multiple platforms, and mentored junior developers.",
+      company: "ARVORE Immersive Experiences",
+      position: "Associate Principal Gameplay Developer",
+      location: "São Paulo, Brazil",
+      period: "Aug 2022 - Present",
+      description: "Leading VR development teams and defining project direction while delivering immersive experiences across multiple VR platforms.",
       achievements: [
-        "Led development of 3 successful game titles with 5M+ downloads",
-        "Reduced loading times by 60% through engine optimization",
-        "Implemented custom rendering pipeline increasing FPS by 40%",
-        "Mentored 5 junior developers, 3 promoted to senior roles"
+        "Delivered 3 VR projects for Rift, Quest, Vive, and PSVR platforms",
+        "Designed clean architecture and documentation, improving onboarding and maintainability",
+        "Applied performance optimization techniques in 2 products to ensure fluid gameplay",
+        "Led and mentored developer teams on 2 projects, fostering the growth of 5 developers",
+        "Reduced overtime by 100% through strategic planning and fostering personal accountability",
+        "Boosted team productivity by implementing Git version control, Git Flow, and code reviews"
       ],
-      technologies: ["Unity", "Unreal Engine", "C++", "C#", "HLSL", "Agile"]
+      technologies: ["Unity", "VR SDKs", "C#", "Git Flow", "Performance Optimization", "Team Leadership"]
     },
     {
-      company: "Pixel Perfect Games",
+      company: "Iron Studios",
+      position: "Senior Gameplay Programmer",
+      location: "Remote",
+      period: "2023",
+      description: "Contributed to gameplay systems for Residiuum demo, a third-person action game using Unreal Engine.",
+      achievements: [
+        "Contributed to gameplay systems for Residiuum demo (third-person action game)",
+        "Used Unreal Engine and C++ to implement core mechanics",
+        "Delivered high-quality features aligned with project goals and deadlines"
+      ],
+      technologies: ["Unreal Engine", "C++", "Gameplay Programming", "Third-Person Action"]
+    },
+    {
+      company: "ARVORE Immersive Experiences",
+      position: "Senior Game Developer",
+      location: "São Paulo, Brazil",
+      period: "Aug 2021 - Aug 2022",
+      description: "Developed VR experiences across multiple platforms while collaborating with cross-functional teams to enhance user experience.",
+      achievements: [
+        "Delivered 3 VR projects for multiple headsets (Rift, Quest, Vive, PSVR)",
+        "Applied performance improvements in 2 titles to enhance user experience",
+        "Built tools and workflows in collaboration with designers",
+        "Contributed to project direction and scope alongside producers and directors"
+      ],
+      technologies: ["Unity", "VR Development", "C#", "Performance Optimization", "Cross-Platform"]
+    },
+    {
+      company: "ARVORE Immersive Experiences",
       position: "Game Developer",
-      location: "Los Angeles, CA", 
-      period: "2019 - 2021",
-      description: "Developed gameplay systems for mobile and PC games. Specialized in physics simulation, AI behavior, and multiplayer networking.",
+      location: "São Paulo, Brazil",
+      period: "Mar 2019 - Aug 2021",
+      description: "Delivered VR projects across major platforms while creating tools and pipelines to support design and production teams.",
       achievements: [
-        "Shipped 4 commercial games across mobile and PC platforms",
-        "Implemented multiplayer systems supporting 100+ concurrent players",
-        "Developed AI systems with advanced pathfinding and behavior trees",
-        "Optimized games for low-end mobile devices improving compatibility by 70%"
+        "Delivered 3 VR projects across major VR platforms",
+        "Created tools and pipelines to support design and production teams",
+        "Assisted in defining scope and project goals with stakeholders"
       ],
-      technologies: ["Unity", "C#", "Photon", "Firebase", "Mobile Optimization"]
+      technologies: ["Unity", "VR Platforms", "C#", "Tool Development", "Pipeline Creation"]
     },
     {
-      company: "Indie Game Collective",
+      company: "Magitech Games",
       position: "Gameplay Programmer",
-      location: "Austin, TX",
-      period: "2017 - 2019", 
-      description: "Worked on various indie game projects, focusing on innovative gameplay mechanics and rapid prototyping.",
+      location: "Brazil",
+      period: "2017 - 2019",
+      description: "Developed and integrated gameplay systems for PC games while building tools to streamline production processes.",
       achievements: [
-        "Contributed to 6 indie games, 2 winning industry awards",
-        "Developed experimental gameplay mechanics for VR platforms",
-        "Created modular systems reducing development time by 30%",
-        "Collaborated with artists and designers to prototype game concepts"
+        "Delivered 3 PC games by developing and integrating gameplay systems",
+        "Built tools and libraries to streamline production processes",
+        "Accelerated prototyping for 3 games, enabling rapid iteration and validation"
       ],
-      technologies: ["Unity", "C#", "VR SDKs", "Rapid Prototyping", "Game Design"]
+      technologies: ["Unity", "C#", "PC Development", "Tool Development", "Rapid Prototyping"]
     },
     {
-      company: "Digital Dreams Studio",
-      position: "Junior Game Developer",
-      location: "Seattle, WA",
-      period: "2016 - 2017",
-      description: "Started my career working on mobile games and learning fundamental game development principles.",
+      company: "Sansar",
+      position: "Senior Game Programmer",
+      location: "Remote",
+      period: "2018",
+      description: "Developed gameplay features and maintained UI systems for a virtual world platform.",
       achievements: [
-        "Implemented UI systems and player progression mechanics",
-        "Fixed over 200 bugs improving game stability",
-        "Learned industry best practices and development workflows",
-        "Contributed to 2 mobile games reaching top 100 in app stores"
+        "Developed gameplay features to enhance user engagement",
+        "Maintained and optimized UI elements and internal engine systems",
+        "Diagnosed and resolved complex bugs, improving stability and scalability"
       ],
-      technologies: ["Unity", "C#", "Mobile Development", "Version Control"]
+      technologies: ["Game Engine", "UI Systems", "Bug Fixing", "Performance Optimization"]
+    },
+    {
+      company: "Tower Up Studios",
+      position: "Gameplay Programmer",
+      location: "Belo Horizonte, Brazil",
+      period: "2014 - 2017",
+      description: "Developed comprehensive game systems and ported games to multiple platforms while creating visual enhancements.",
+      achievements: [
+        "Developed systems for controls, cameras, audio, UI, animation, and character behaviors",
+        "Ported 2 games to mobile and console platforms",
+        "Created over 20 shaders to improve in-game visuals",
+        "Developed level design tools to increase production efficiency and meet deadlines"
+      ],
+      technologies: ["Unity", "C#", "Shader Development", "Multi-Platform", "Level Design Tools"]
+    },
+    {
+      company: "PUC Minas",
+      position: "Game Programmer & Research Student",
+      location: "Belo Horizonte, Brazil",
+      period: "2013 - 2015",
+      description: "Developed mobile games and conducted user research while serving as Assistant Teacher for Programming Languages.",
+      achievements: [
+        "Developed and tested 2 mobile games using Unity",
+        "Conducted playtesting sessions that identified and resolved usability issues",
+        "Addressed key design flaws in UI and gameplay based on user feedback",
+        "Helped students improve performance by assisting with programming exercises"
+      ],
+      technologies: ["Unity", "Mobile Development", "User Research", "Playtesting", "Teaching"]
+    },
+    {
+      company: "Hospital Mater Dei",
+      position: "IT Intern",
+      location: "Belo Horizonte, Brazil",
+      period: "2011",
+      description: "Provided IT support and resolved software issues for a large healthcare organization.",
+      achievements: [
+        "Resolved software issues impacting over 1000 users",
+        "Gained experience in enterprise software support and troubleshooting"
+      ],
+      technologies: ["IT Support", "Software Troubleshooting", "Enterprise Systems"]
     }
   ];
 
