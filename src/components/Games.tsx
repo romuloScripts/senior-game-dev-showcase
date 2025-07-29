@@ -8,6 +8,10 @@ import thelineImage from '@/assets/theline.jpg';
 import sansarImage from '@/assets/sansar.jpg';
 import residiuumImage from '@/assets/residiuum.jpg';
 import boogieImage from '@/assets/boogie.jpg';
+import lonelandImage from '@/assets/loneland.jpg';
+import shieldimpactImage from '@/assets/shieldimpact.jpg';
+import wellsImage from '@/assets/wells.jpg';
+import jequiImage from '@/assets/jequi.jpg';
 
 const Games = () => {
   const games = [
@@ -73,13 +77,53 @@ const Games = () => {
     },
     {
       title: "Sansar",
-      role: "Senior Gameplay Programmer",
+      role: "Gameplay Programmer",
       year: "2018",
       description: "Sansar is the ultimate playground for creative mind and virtual explorers. Create your avatar, design worlds and join events organized by the community.",
       technologies: ["Custom Engine", "C++", "Networking", "UI", "Noesis"],
       stats: { company: "Sansar", platform: "PC" },
       image: sansarImage,
       playLink: "https://www.sansar.com/"
+    },
+    {
+      title: "Lone Land ",
+      role: "Gameplay Programmer",
+      year: "2018-2019",
+      description: "Lone Land is a contemplative platformer where you play as an unknown protagonist exploring a mysterious world revealed through environmental storytelling.",
+      technologies: ["Unreal", "C++", "Optimization", "Gameplay", "UI"],
+      stats: { company: "Magitech Games", platform: "PC" },
+      image: lonelandImage,
+      playLink: "https://store.steampowered.com/app/771680/Shield_Impact/"
+    },
+    {
+      title: "Shield Impact",
+      role: "Gameplay Programmer",
+      year: "2017-2018",
+      description: "Shield Impact is an action survival game where a gladiator with only one shield will be challenged by rising hordes of enemies in an arena in ancient Rome.",
+      technologies: ["Unity", "C#", "Gameplay", "UI", "Custom Tools"],
+      stats: { company: "Magitech Games", platform: "PC" },
+      image: shieldimpactImage,
+      playLink: "https://www.sansar.com/"
+    },
+    {
+      title: "Wells",
+      role: "Gameplay Programmer",
+      year: "2014-2017",
+      description: "Wells is an action side-scrolling game into a steampunk universe with a lot of enemies, explosions and gigantic bosses.",
+      technologies: ["Unity", "C#", "Gameplay", "UI", "Custom Tools", "AI", "HLSL", "Graphics"],
+      stats: { company: "Magitech Games", platform: "Xbox One, PC, MAC, Linux" },
+      image: wellsImage,
+      playLink: "https://towerupstudios.com/wells/"
+    },
+    {
+      title: "Jequi`s Dream",
+      role: "Junior Gameplay Programmer",
+      year: "2015-2016",
+      description: "Jequi's Dream is a dual-character endless runner where collecting water restores life and helps a new valley come to bloom.",
+      technologies: ["Unity", "C#", "Gameplay", "UI"],
+      stats: { company: "Magitech Games", platform: "Android, iOS" },
+      image: jequiImage,
+      playLink: "https://towerupstudios.com/jequi/en/"
     }
   ];
 
