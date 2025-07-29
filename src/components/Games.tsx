@@ -34,7 +34,8 @@ const Games = () => {
       technologies: ["Unity", "C#", "Custom Tools", "Analytics", "HLSL", "VR", "AI"],
       stats: { company: "ARVORE Immersive", platform: "PC, PS5, Meta Quest" },
       image: pixel78Image,
-      playLink: "https://atari.com/products/pixel-ripped-1978?srsltid=AfmBOor0ciKK9Wr7FNesLyRSHNW1WehfJQKXLd_IgSecgegn810y541F"
+      playLink: "https://atari.com/products/pixel-ripped-1978?srsltid=AfmBOor0ciKK9Wr7FNesLyRSHNW1WehfJQKXLd_IgSecgegn810y541F",
+      featured: true
     },
     {
       title: "Yuki Space Ranger",
@@ -44,7 +45,8 @@ const Games = () => {
       technologies: ["Unity", "C#", "Optimization", "Graphics", "VR","Procedural Generation"],
       stats: { company: "ARVORE Immersive", platform: "PC, PS4, Meta Quest" },
       image: yukiImage,
-      playLink: "https://arvore.io/games/yuki-space-ranger"
+      playLink: "https://arvore.io/games/yuki-space-ranger",
+      featured: true
     },
     {
       title: "The Line",
@@ -54,7 +56,8 @@ const Games = () => {
       technologies: ["Unity", "C#", "VR"],
       stats: { company: "ARVORE Immersive", platform: "PC, Meta Quest" },
       image: thelineImage,
-      playLink: "https://arvore.io/games/the-line"
+      playLink: "https://arvore.io/games/the-line",
+      featured: true
     },
     {
       title: "Boogie Race",
