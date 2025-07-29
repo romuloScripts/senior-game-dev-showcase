@@ -12,6 +12,7 @@ import lonelandImage from '@/assets/loneland.jpg';
 import shieldimpactImage from '@/assets/shieldimpact.jpg';
 import wellsImage from '@/assets/wells.jpg';
 import jequiImage from '@/assets/jequi.jpg';
+import oleImage from '@/assets/ole.jpg';
 
 const Games = () => {
   const games = [
@@ -87,6 +88,16 @@ const Games = () => {
       stats: { company: "Sansar", platform: "PC" },
       image: sansarImage,
       playLink: "https://www.sansar.com/"
+    },
+    {
+      title: "Olé - Card Game",
+      role: "Senior Gameplay Programmer",
+      year: "2020-2024",
+      description: "Olé is a soccer card game with multiplayer features, where players can collect cards and build their own teams to compete against others.",
+      technologies: ["Unreal", "C++", "Optimization", "Gameplay", "UI", "Multiplayer"],
+      stats: { company: "Magitech Games", platform: "PC" },
+      image: oleImage,
+      playLink: "https://store.steampowered.com/app/1329210/Ole__Card_Game/"
     },
     {
       title: "Lone Land ",
