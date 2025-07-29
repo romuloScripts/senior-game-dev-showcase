@@ -95,10 +95,7 @@ const Footer = () => {
           <div className="border-t border-gaming-bg-secondary pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <p className="text-gaming-text-muted text-sm mb-4 md:mb-0">
-                © {currentYear} Game Developer Portfolio. All rights reserved.
-              </p>
-              <p className="flex items-center text-gaming-text-muted text-sm">
-                Made with <Heart className="h-4 w-4 mx-1 text-gaming-accent" /> for the gaming community
+                © {currentYear} Romulo Senior Game Developer Portfolio. All rights reserved.
               </p>
             </div>
           </div>
