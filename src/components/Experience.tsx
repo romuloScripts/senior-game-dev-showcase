@@ -7,7 +7,7 @@ const Experience = () => {
       company: "ARVORE Immersive Experiences",
       position: "Associate Principal Gameplay Developer",
       location: "São Paulo, Brazil",
-      period: "Aug 2022 - Present",
+      period: "2022 - Present",
       description: "Leading VR development teams and defining project direction while delivering immersive experiences across multiple VR platforms.",
       achievements: [
         "Delivered 3 VR projects for Rift, Quest, Vive, and PSVR platforms",
@@ -17,26 +17,27 @@ const Experience = () => {
         "Reduced overtime by 100% through strategic planning and fostering personal accountability",
         "Boosted team productivity by implementing Git version control, Git Flow, and code reviews"
       ],
-      technologies: ["Unity", "VR SDKs", "C#", "Git Flow", "Performance Optimization", "Team Leadership"]
+      technologies: ["Unreal", "C++", "Unity", "VR SDKs", "C#", "Git Flow", "Optimization", "Team Leadership"]
     },
     {
       company: "Iron Studios",
-      position: "Senior Gameplay Programmer",
+      position: "Senior Gameplay Programmer - Freelance",
       location: "Remote",
-      period: "2023",
+      period: "2023-2024",
       description: "Contributed to gameplay systems for Residiuum demo, a third-person action game using Unreal Engine.",
       achievements: [
         "Contributed to gameplay systems for Residiuum demo (third-person action game)",
         "Used Unreal Engine and C++ to implement core mechanics",
-        "Delivered high-quality features aligned with project goals and deadlines"
+        "Delivered high-quality features aligned with project goals and deadlines",
+        "Collaborated with Boogie Race project made in custom engine in rust language",
       ],
-      technologies: ["Unreal Engine", "C++", "Gameplay Programming", "Third-Person Action"]
+      technologies: ["Unreal Engine", "C++", "Custom Engine", "Rust", "Gameplay Programming", "Third-Person Action"]
     },
     {
       company: "ARVORE Immersive Experiences",
       position: "Senior Game Developer",
       location: "São Paulo, Brazil",
-      period: "Aug 2021 - Aug 2022",
+      period: "2021 - 2022",
       description: "Developed VR experiences across multiple platforms while collaborating with cross-functional teams to enhance user experience.",
       achievements: [
         "Delivered 3 VR projects for multiple headsets (Rift, Quest, Vive, PSVR)",
@@ -50,7 +51,7 @@ const Experience = () => {
       company: "ARVORE Immersive Experiences",
       position: "Game Developer",
       location: "São Paulo, Brazil",
-      period: "Mar 2019 - Aug 2021",
+      period: "2019 - 2021",
       description: "Delivered VR projects across major platforms while creating tools and pipelines to support design and production teams.",
       achievements: [
         "Delivered 3 VR projects across major VR platforms",
@@ -74,7 +75,7 @@ const Experience = () => {
     },
     {
       company: "Sansar",
-      position: "Senior Game Programmer",
+      position: "Senior Game Programmer - Freelance",
       location: "Remote",
       period: "2018",
       description: "Developed gameplay features and maintained UI systems for a virtual world platform.",
@@ -83,7 +84,7 @@ const Experience = () => {
         "Maintained and optimized UI elements and internal engine systems",
         "Diagnosed and resolved complex bugs, improving stability and scalability"
       ],
-      technologies: ["Game Engine", "UI Systems", "Bug Fixing", "Performance Optimization"]
+      technologies: ["Custom Engine", "C++", "UI Systems", "Bug Fixing", "Performance Optimization"]
     },
     {
       company: "Tower Up Studios",
@@ -97,7 +98,7 @@ const Experience = () => {
         "Created over 20 shaders to improve in-game visuals",
         "Developed level design tools to increase production efficiency and meet deadlines"
       ],
-      technologies: ["Unity", "C#", "Shader Development", "Multi-Platform", "Level Design Tools"]
+      technologies: ["Unity", "C#", "Shader Development", "Multi-Platform", "Level Design Tools", "Mobile Development" , "Console Development"]
     },
     {
       company: "PUC Minas",
