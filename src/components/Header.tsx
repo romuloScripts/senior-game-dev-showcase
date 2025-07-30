@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Code, Gamepad2, User, Briefcase, Mail, Github } from 'lucide-react';
+import { Menu, X, Code, Gamepad2, User, Briefcase, Mail, Github, Linkedin } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -67,9 +67,16 @@ const Header = () => {
             >
               <Github className="h-5 w-5" />
             </a>
-            <Button variant="gaming-outline" size="sm">
-              Available for Freelance
-            </Button>
+            <a 
+              href="https://www.linkedin.com/in/romulogamedev/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button variant="gaming-outline" size="sm" className="flex items-center gap-2">
+                <Linkedin className="h-4 w-4" />
+                Connect on LinkedIn
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -124,9 +131,16 @@ const Header = () => {
                 >
                   <Github className="h-5 w-5" />
                 </a>
-                <Button variant="gaming-outline" size="sm">
-                  Available for Freelance
-                </Button>
+                <a 
+                  href="https://www.linkedin.com/in/romulogamedev/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="gaming-outline" size="sm" className="flex items-center gap-2">
+                    <Linkedin className="h-4 w-4" />
+                    Connect on LinkedIn
+                  </Button>
+                </a>
               </div>
             </nav>
           </div>
