@@ -136,10 +136,14 @@ const Header = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <Button variant="gaming-outline" size="sm" className="flex items-center gap-2">
-                    <Linkedin className="h-4 w-4" />
-                    Connect on LinkedIn
-                  </Button>
+                <a 
+                  href="https://www.linkedin.com/in/romulogamedev/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
                 </a>
               </div>
             </nav>
