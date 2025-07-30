@@ -32,13 +32,17 @@ const Contact = () => {
     resolver: zodResolver(contactSchema),
   });
 
+const EMAILJS_SERVICE_ID = 'service_251keda';
+const EMAILJS_TEMPLATE_ID = 'template_qllmp9c';
+const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
+
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     
     try {
       await emailjs.send(
-        'default_service', // You'll need to configure this in EmailJS
-        'template_contact', // You'll need to create this template
+        EMAILJS_SERVICE_ID, // You'll need to configure this in EmailJS
+        EMAILJS_TEMPLATE_ID, // You'll need to create this template
         {
           from_name: `${data.firstName} ${data.lastName}`,
           from_email: data.email,
@@ -46,7 +50,7 @@ const Contact = () => {
           message: data.message,
           to_email: 'romulossan@gmail.com',
         },
-        'your_public_key' // You'll need to add your EmailJS public key
+        EMAILJS_PUBLIC_KEY // You'll need to add your EmailJS public key
       );
       
       toast.success('Message sent successfully! I\'ll get back to you soon.');
