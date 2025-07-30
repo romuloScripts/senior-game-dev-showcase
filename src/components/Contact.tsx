@@ -126,18 +126,17 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
                 </div>
               </div>
 
-              {/* LinkedIn Connect */}
-              <div className="mt-8">
-                <a 
-                  href="https://www.linkedin.com/in/romulogamedev/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-full px-6 py-4 bg-gradient-to-r from-gaming-primary to-gaming-accent text-gaming-bg-primary font-semibold rounded-lg hover:shadow-lg hover:shadow-gaming-primary/25 transition-all duration-300 transform hover:scale-105"
-                >
-                  <Linkedin className="h-6 w-6 mr-3" />
-                  Connect on LinkedIn
-                </a>
-              </div>
+              {/* Availability */}
+              <Card className="p-6 mt-8 bg-gradient-card border-gaming-bg-tertiary">
+                <h4 className="text-gaming-text font-semibold mb-3">Current Availability</h4>
+                <div className="flex items-center space-x-2 mb-2">
+                  <div className="w-3 h-3 bg-gaming-accent rounded-full"></div>
+                  <span className="text-gaming-text">Available for Freelance</span>
+                </div>
+                <p className="text-gaming-text-muted text-sm">
+                  Open to freelancer opportunities, consulting projects, and interesting collaborations.
+                </p>
+              </Card>
             </div>
 
             {/* Contact Form */}
