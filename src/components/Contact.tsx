@@ -44,9 +44,9 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
         EMAILJS_SERVICE_ID, // You'll need to configure this in EmailJS
         EMAILJS_TEMPLATE_ID, // You'll need to create this template
         {
-          from_name: `${data.firstName} ${data.lastName}`,
+          name: `${data.firstName} ${data.lastName}`,
           from_email: data.email,
-          subject: data.subject,
+          title: data.subject,
           message: data.message,
           to_email: 'romulossan@gmail.com',
         },
