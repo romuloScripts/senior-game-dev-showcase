@@ -62,7 +62,7 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
       setIsSubmitting(false);
     }
   };
-  return <section id="contact" className="py-20 bg-gaming-bg-secondary">
+  return <section id="contact" className="py-20 bg-gaming-bg-primary">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
