@@ -50,6 +50,12 @@ const Header = () => {
               Projects
             </button>
             <button 
+              onClick={() => scrollToSection('research')}
+              className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
+            >
+              Research
+            </button>
+            <button 
               onClick={() => scrollToSection('contact')}
               className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
             >
@@ -71,15 +77,9 @@ const Header = () => {
               href="https://www.linkedin.com/in/romulogamedev/" 
               target="_blank" 
               rel="noopener noreferrer"
+              className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
             >
-              <a 
-                  href="https://www.linkedin.com/in/romulogamedev/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
+              <Linkedin className="h-5 w-5" />
             </a>
           </div>
 
@@ -121,6 +121,12 @@ const Header = () => {
                 Projects
               </button>
               <button 
+                onClick={() => scrollToSection('research')}
+                className="text-gaming-text-muted hover:text-gaming-primary transition-colors text-left"
+              >
+                Research
+              </button>
+              <button 
                 onClick={() => scrollToSection('contact')}
                 className="text-gaming-text-muted hover:text-gaming-primary transition-colors text-left"
               >
@@ -139,15 +145,9 @@ const Header = () => {
                   href="https://www.linkedin.com/in/romulogamedev/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                >
-                <a 
-                  href="https://www.linkedin.com/in/romulogamedev/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
                   className="text-gaming-text-muted hover:text-gaming-primary transition-colors"
                 >
                   <Linkedin className="h-5 w-5" />
-                </a>
                 </a>
               </div>
             </nav>
