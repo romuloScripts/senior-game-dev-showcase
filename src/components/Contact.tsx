@@ -68,7 +68,7 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gaming-text mb-6">
-              Let's <span className="text-gaming-primary">Connect</span>
+              Let's <span className="text-gaming-secondary">Connect</span>
             </h2>
             <p className="text-xl text-gaming-text-muted max-w-3xl mx-auto">Ready to create something amazing together? I'm always interested in discussing new opportunities, collaborations, mentorship or just chatting about game development.</p>
           </div>
@@ -81,7 +81,7 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
               <div className="space-y-6 mb-8">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gaming-bg-tertiary rounded-lg flex items-center justify-center">
-                    <Mail className="h-5 w-5 text-gaming-primary" />
+                    <Mail className="h-5 w-5 text-gaming-secondary" />
                   </div>
                   <div>
                     <h4 className="text-gaming-text font-semibold">Email</h4>
@@ -91,7 +91,7 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gaming-bg-tertiary rounded-lg flex items-center justify-center">
-                    <Phone className="h-5 w-5 text-gaming-primary" />
+                    <Phone className="h-5 w-5 text-gaming-secondary" />
                   </div>
                   <div>
                     <h4 className="text-gaming-text font-semibold">Phone</h4>
@@ -101,7 +101,7 @@ const EMAILJS_PUBLIC_KEY = 'aFAYt1B__1bhAzCFC';
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gaming-bg-tertiary rounded-lg flex items-center justify-center">
-                    <MapPin className="h-5 w-5 text-gaming-primary" />
+                    <MapPin className="h-5 w-5 text-gaming-secondary" />
                   </div>
                   <div>
                     <h4 className="text-gaming-text font-semibold">Location</h4>
